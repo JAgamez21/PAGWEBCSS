@@ -10,19 +10,20 @@
 
 <body>
   <header>
+    <img src="img/Fndi.png" alt="IMAGEN" width="100%">
     <nav class="bor">
       <ul>
+        <li><a href="html/login.html"><b>Inicie Sesión</b></a></li>
         <li><a href="index.html"><b>Odontología</b></a></li>
-        <li><a href="html/forense.html"><b>Odontología Forense</b></a></li>
-        <li><a href="html/pediatra.html"><b>Odontología Pediatra</b></a></li>
-        <li><a href="html/ortodontista.html"><b>Odontología Ortodontista</b></a></li>
+        <li><a href="html/forense.html"><b>Odon. Forense</b></a></li>
+        <li><a href="html/pediatra.html"><b>Odon. Pediatra</b></a></li>
+        <li><a href="html/ortodontista.html"><b>Odon. Ortodontista</b></a></li>
         <li><a href="html/catalogos.html"><b>Catálogo</b></a></li>
-        <li><a href="html/chatonline.html"><b>Chat online</b></a></li>
+        <li><a href="html/chatonline.html"><b>Chat-online</b></a></li>
         <li><a href="html/factura.html"><b>Tu factura</b></a></li>
         <li><a href="html/contactenos.html"><b>Contactenos</b></a></li>
       </ul>
     </nav>
-    <img src="img/Fndi.png" alt="IMAGEN" width="100%">
   </header>
   <section>
     <div class="cuerpo">
@@ -71,47 +72,44 @@
       <div>
         <div class="TI2">
           <center>
-            <h1> ¡Agende su consulta aquí! </h1>
+            <h1> ¿Cual es el precio de su consulta? </h1>
           </center>
         </div>
         <form class="formulario">
           <table>
             <tr>
-              <td><label> Fecha de la consulta: </label></td>
-              <td><input type="date" placeholder="Elija su fecha de nacimiento" class="field"><br></td>
-            </tr>
-            <tr>
-              <td><label> Nombre completo: </label></td>
-              <td><input type="text" placeholder="Digite su nombre completo" class="field"><br></td>
-            </tr>
-            <tr>
-              <td><label> Cédula: </label></td>
-              <td><input type="text" placeholder="Digite su cédula" class="field"><br></td>
-            </tr>
-            <tr>
-              <td><label> Número de celular: </label></td>
-              <td><input type="text" placeholder="Digite su número de celular" class="field"><br></td>
-            </tr>
-            <tr>
-              <td><label> Número de telefono: </label></td>
-              <td><input type="text" placeholder="Digite su número telefónico" class="field"><br></td>
-            </tr>
-            <tr>
-              <td><label> Correo: </label></td>
-              <td><input type="text" placeholder="Digite su correo" class="field"><br></td>
-            </tr>
-            <tr>
               <td><label> Tipo de consulta: </label></td>
               <td>
                 <select name="" id="" class="field">
-                  <option value="">Consulta Pediatra</option>
-                  <option value="">Consulta Ortodoncista</option>
+                  <option id="op1" value="">Blanqueamiento</option>
+                  <option id="op2" value="">Instalacion de Brackets</option>
+                  <option id="op3" value="">Limpieza bucal</option>
+                  <option id="op4" value="">Revision de caries</option>
+                  <option id="op5" value="">Sacar diente</option>
+                  <option id="op6" value="">Endodoncia</option>
+                  <option id="op7" value="">Periodoncia</option>
+                  <option id="op8" value="">Rehabilitacion e Implantes</option>
+                  <option id="op9" value="">Diseño de sonrisa</option>
+                </select><br>
+              </td>
+            <tr>
+            <tr>
+              <td><label> Recargo según el dia de semana: </label></td>
+              <td>
+                <select name="" id="" class="field">
+                  <option id="dia1" value="">Lunes = 0%</option>
+                  <option id="dia2" value="">Martes = -10%</option>
+                  <option id="dia3" value="">Miercoles = -10%</option>
+                  <option id="dia4" value="">Jueves = 0%</option>
+                  <option id="dia5" value="">Viernes = 10%</option>
+                  <option id="dia6" value="">Sabado = 20%</option>
+                  <option id="dia7" value="">Domingo = 20%</option>
                 </select><br>
               </td>
             <tr>
               <td colspan="2">
                 <div class="center">
-                  <input type="button" class="btn" value="Registrar">
+                  <input type="button" class="btn" value="Consultar">
                 </div>
               </td>
             </tr>

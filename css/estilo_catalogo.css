@@ -38,6 +38,10 @@ li a:hover {
   background-color: #708FA3;
 
 }
+td {
+  padding-left: auto;
+  padding-right: auto;
+}
 .cuerpocata {
   margin-left: 100px;
   margin-right: 100px; 
