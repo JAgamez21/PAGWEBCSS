@@ -45,7 +45,8 @@ function formlogin(e) {
   }
 
   if (login) {
-    location.href = '/index.html'
+    // location.href = '/index.html'
+    location.href = '/PAGWEBCSS/index.html'
   } else {
     alert('User/password incorrect')
   }
